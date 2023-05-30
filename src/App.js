@@ -285,10 +285,10 @@ const App = () => {
       <Route exact path="/">
       {isUserLoggedIn == "true" ? <UserDetails /> : <Home/>}
       </Route>  
-      <Route path="/contact">        
+      <Route path="/vui/contact">        
         <Contact />
       </Route>
-      <Route exact path="/product">
+      <Route exact path="/vui/product">
         <Store handleAddProduct={handleAddProduct} catg={catg} setCatg={setCatg} filterProducts={filterProducts}  />
       </Route>
       <Route path="/product/:id">
