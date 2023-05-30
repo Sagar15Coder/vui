@@ -28,7 +28,7 @@ const Home = () => {
               <div className="d-flex flex-wrap gap-10 justify-content-between align-items-center">
                 <div className="small-banner position-relative">
                   <img 
-                    src="images/catbanner-01.jpg"
+                    src="/vui/images/catbanner-01.jpg"
                     className="img-fluid rounded-3" 
                     alt="small banner" 
                     />
@@ -40,7 +40,7 @@ const Home = () => {
                 </div>
                 <div className="small-banner position-relative">
                   <img 
-                    src="images/catbanner-02.jpg"
+                    src="./vui/images/catbanner-02.jpg"
                     className="img-fluid rounded-3" 
                     alt="small banner" 
                     />
@@ -52,7 +52,7 @@ const Home = () => {
                 </div>
                 <div className="small-banner position-relative">
                   <img 
-                    src="images/catbanner-03.jpg"
+                    src="vui/images/catbanner-03.jpg"
                     className="img-fluid rounded-3" 
                     alt="small banner" 
                     />
