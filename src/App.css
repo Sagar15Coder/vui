@@ -1,0 +1,507 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+.gap-15 {
+    gap: 15px;
+}
+.gap-28{
+    gap: 28px;
+}
+.gap-32 {
+    gap: 32px;
+}
+
+.button {
+    background-color: #232f3e;
+    color: white;
+    font-size: 15px;
+    padding: 13px 33px;
+    border-radius: 20px;
+}
+.button:hover {
+    background-color: #febd69;
+    color:#131921;
+}
+
+/* CSS for Header */
+.header-top-strip {
+    background-color: #131921;
+    border-bottom: 1px solid #3b4149;
+}
+
+.header-top {
+    background-color: #131921;
+}
+
+.form-control:focus {
+    box-shadow: none;
+    border-color: inherit;
+}
+
+.header-top .input-group-text {
+    background-color: #febd69;
+}
+
+
+.header-top .header-top-links img {
+    width: 35px;
+    height: 35px;
+}
+
+.header-bottom {
+    background-color: #232f3e;
+}
+.header-bottom .menu-links a,
+.header-bottom .dropdown button {
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.3;
+    text-transform: uppercase;
+}
+.header-bottom .dropdown button:focus {
+    box-shadow: none;
+}
+.header-bottom .dropdown-menu {
+    background-color: #131921;
+    width: 100%;
+    transform: translate3d(0px, 57px, 0px) !important;
+}
+.header-bottom .dropdown-item {
+    padding: 20px;
+    margin-bottom: 3px;
+    border-bottom: 1px solid #3b4149;
+}
+.header-bottom .dropdown-item:hover {
+    background-color: transparent;
+    color: #febd69 !important;
+}
+
+/* CSS for footer */
+footer, .footer-top, .footer-bottom {
+    background-color: #232f3e;
+}
+footer, .footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.5)
+}
+.footer-top .input-group-text {
+    background-color: #232f3e;
+    color: white;
+    padding: 8px 17px;
+}
+
+/* CSS for Home Page */
+.main-banner-content {
+    top: 15%;
+    left: 5%
+}
+.main-banner-content h4 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #e45c07;
+    margin: 0 0 12px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+}
+.main-banner-content h5 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 54px;
+    color: #080300;    
+    letter-spacing: -2px;
+    text-transform: none;
+}
+.main-banner-content p {
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.4;
+    color: #131921;
+}
+
+.small-banner-content {
+    top: 25%;
+    left: 10%
+}
+.small-banner-content h4 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #e45c07;
+    margin: 0 0 12px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+}
+.small-banner-content h5 {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 34px;
+    color: #080300;
+    letter-spacing: -2px;
+    text-transform: none;
+}
+.small-banner-content p {
+    font-size: 14px;
+    line-height: 22px;
+    letter-spacing: 0.4;
+    color: #131921;
+}
+.small-banner {
+    width: 49%;
+}
+
+.home-wrapper-2  {
+    background-color: #f5f5f7;
+}
+
+.categories {
+    background-color: white;
+    box-shadow: 0 0 10px #0000001a;
+    padding: 15px;
+}
+.categories > div {
+    width: 25%;
+    padding: 10px 10px 10px 20px;
+}
+.categories > div > div {
+    width: 50%;
+}
+.categories > div:nth-child(1),
+.categories > div:nth-child(2),
+.categories > div:nth-child(3),
+.categories > div:nth-child(4) {
+    border-bottom: 1px solid #ededed;
+}
+.categories > div:nth-child(1),
+.categories > div:nth-child(2),
+.categories > div:nth-child(3),
+.categories > div:nth-child(5),
+.categories > div:nth-child(6),
+.categories > div:nth-child(7) {
+    border-right: 1px solid #ededed;
+}
+
+.card-wrapper {
+    background-color: white;
+    box-shadow: 0 0 10px #0000001a;
+    padding: 15px;
+}
+
+/* CSS for Blog Part and Product Part */
+
+.blog-card {
+    background-color: white;    
+    border-radius: 10px;
+}
+.blog-card img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.blog-content {
+    padding: 15px;
+}
+.blog-content p.date {
+    font-size: 13px;
+    line-height: 24px;
+    text-transform: uppercase;
+    letter-spacing: 0;
+    font-weight: 400;
+    color: #777777;
+    padding: 0;
+}
+.blog-section-heading, .product-section-heading {
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+
+.blog-page-card a {
+    font-size: 16px;
+    color: #777777;
+    margin-bottom: 20px;
+}
+.blog-page-card h3 {
+    font-size: 16px;
+    font-weight: 550;
+    color: #1c1c1b;
+}
+.blog-page-card p {
+    color: #393838;
+    font-size: 14px;
+}
+
+.product-card {
+    padding: 15px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.product-card .product-details h6 {
+    color: #bf4800;
+    font-size: 14px;
+}
+.product-card .product-details h5 {
+    font-size: 15px;
+    color: #1c1c1b;
+}
+.product-card .product-details p.price {
+    font-size: 16px;
+    color: #1c1c1b;
+}
+.action-bar {
+    top: 10%;
+    right: -23px;
+}
+.product-card:hover .action-bar {
+    right: 10px;
+}
+.wishlist-icon {
+    top: 2%;
+    right: 15px;
+}
+
+/* CSS for Special Products */
+
+.special-product-card {
+    padding: 20px 10px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+/* CSS for Our Store */
+
+.filter-card {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+.filter-title {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 580;
+    color: #1c1c1b;
+    margin-bottom: 20px;
+}
+.filter-card ul, .filter-card .form-check-label  {
+    list-style-type: none;
+    font-size: 12px;
+    line-height: 30px;
+    color: #777777;
+    cursor: pointer;
+}
+.filter-sub-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #1c1c1c;
+    margin-top: 15px;
+}
+.colors {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.colors li {
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    border-radius: 50%;
+}
+.product-sort-grid {
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.card-img-top {
+    width: 300px;
+    height: 400px;
+    object-fit: contain;
+}
+
+.btn-link {
+    text-decoration: none;
+    color: #777777;
+    font-size: 14px;
+}
+/* CSS for Contact Page */
+.contact-box {
+    background-color: white;
+    padding: 30px 30px;
+    border-radius: 14px;
+    gap: 15px;
+}
+.contact-box >div {
+    width: 48%;
+}
+.contact-title {
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 35px;
+    text-align: left;
+}
+.contact-box ul {
+    list-style: none;
+}
+
+/* CSS for Login Page */
+.login-box {
+    background-color: white;
+    padding:20px;
+    width: 500px;
+    margin: 32px auto;
+}
+.login-box h3 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #777777;
+}
+.login-box .form-control {
+   height: 50px;
+   background-color: #f5f5f7;
+   color: #777777;
+   font-size: 14px;
+   border-radius: 10px;
+   border-color: transparent;
+}
+.login-box .forgot-pw {
+    font-size: 14px;
+    font-weight: 400;
+    color: #131921;
+}
+
+/* CSS for Single Product Page */
+
+.prod-desc-wrapper h4,
+.prod-reviews-wrapper h4 {
+    font-size: 22px;
+    color: #1c1c1b;
+    margin-bottom: 10px;
+}
+.prod-desc-wrapper p {
+    font-size: 14px;
+    color: #5b5b5b;
+}
+.prod-reviews-inner-wrapper {
+    background-color: white;
+    padding: 30px;
+}
+.review-head {
+    border-bottom: 1px solid black;
+    padding-bottom: 20px;
+}
+.review-head h4 {
+    font-size: 16px;
+    color: #1c1c1b;
+}
+.review-head p, .review-head a {
+    font-size: 14px;
+    color: #777777;
+}
+.prod-review-form h4 {
+    font-size: 16px;
+    color: #777777;
+}
+.prod-image {
+    background-color: white;
+    padding: 18px;
+    border-radius: 8px;
+}
+.prod-image>div {
+    border: 1px solid rgb(118, 117, 117)
+}
+.prod-details {
+    background-color: white;
+    padding: 18px;
+    border-radius: 8px;
+}
+.border-bottom {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.25)
+}
+.prod-details h3.prod-title {
+    font-size: 18px;
+    font-weight: 550;
+    color: #1c1c1b;
+}
+.prod-heading {
+    font-size: 14px;
+    margin-bottom: 0px;
+    color: #1c1c1b;
+}
+.prod-data {
+    font-size: 12px;
+    margin-bottom: 0px;
+    color: #777777;
+}
+
+/* CSS for Cart Page */
+
+.cart-header {
+    border-bottom: 1px solid white;
+}
+.cart-header h4 {
+    font-size: 12px;
+    color: #777777;
+}
+.col-1-cart {
+    width: 40%;
+}
+.col-2-cart {
+    width: 10%;
+}
+.col-3-cart {
+    width: 15%;
+}
+.col-4-cart {
+    width: 15%;
+}
+.cart-data h5.price {
+    font-size: 12px;
+    color: #1c1c1b;
+}
+.clear-cart {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.clear-cart-button {
+    border: none;
+    border-radius: 4px;
+    background-color: transparent;
+    color: blue;
+    font-size: 16px;
+}
+
+
+
+.speech-rg {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+}
+.transcript {
+    color:rgba(65, 64, 64, 0.5);
+}
+.voice-button, .stop-button {
+    border-radius: 50%;
+    height: 60px;
+    width: 60px;
+}
+
