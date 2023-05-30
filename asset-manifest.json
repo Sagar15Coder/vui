@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/vui/static/css/main.4fb4b375.css",
+    "main.js": "/vui/static/js/main.1e788682.js",
+    "static/media/time.jpg": "/vui/static/media/time.b66b428eea04837f5683.jpg",
+    "static/media/blog-1.jpg": "/vui/static/media/blog-1.ba155d989afb69b6f6b8.jpg",
+    "static/media/watch-top-10.jpg": "/vui/static/media/watch-top-10.3d19022d27d9b6103ebd.jpg",
+    "static/media/vui-tech.webp": "/vui/static/media/vui-tech.8f8966b043dc6fac016a.webp",
+    "static/media/blockchain.avif": "/vui/static/media/blockchain.e9f74675c793a8925040.avif",
+    "index.html": "/vui/index.html",
+    "main.4fb4b375.css.map": "/vui/static/css/main.4fb4b375.css.map",
+    "main.1e788682.js.map": "/vui/static/js/main.1e788682.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4fb4b375.css",
+    "static/js/main.1e788682.js"
+  ]
+}
