@@ -99,10 +99,10 @@ const Header = ({cartProducts}) => {
                 </div>
                 <div className="menu-links">
                   <div className="d-flex align-items-center gap-15">
-                    <NavLink to="/">Home</NavLink>
-                    <NavLink to="/product">Our Store</NavLink>
-                    <NavLink to="/blogs">Blogs</NavLink>
-                    <NavLink to="/contact">Contact</NavLink>
+                    <NavLink to="/vui">Home</NavLink>
+                    <NavLink to="/vui/product">Our Store</NavLink>
+                    <NavLink to="/vui/blogs">Blogs</NavLink>
+                    <NavLink to="/vui/contact">Contact</NavLink>
                   </div>
                 </div>
               </div>
