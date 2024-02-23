@@ -14,7 +14,7 @@ const Home = () => {
             <div className="col-6">
               <div className="main-banner position-relative">
                 <img 
-                  src="images/main-banner-1.webp"
+                  src="../public/images/main-banner-1.webp"
                   className="img-fluid rounded-3" 
                   alt="main banner" 
                   />
@@ -28,7 +28,7 @@ const Home = () => {
               <div className="d-flex flex-wrap gap-10 justify-content-between align-items-center">
                 <div className="small-banner position-relative">
                   <img 
-                    src="images/catbanner-01.jpg"
+                    src="../public/images/catbanner-01.jpg"
                     className="img-fluid rounded-3" 
                     alt="small banner" 
                     />
