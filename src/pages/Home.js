@@ -297,7 +297,7 @@ const Home = () => {
         <div className="container-xxl">
           <div className="row">
             <div className="col-12">
-              <h3 className="blog-section-heading">Our Latest Blogs</h3>
+              <h3 className="blog-section-heading">Our Latest Blogsssss</h3>
             </div>
           <div className="row"> 
               <BlogCardHome />         
