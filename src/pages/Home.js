@@ -33,7 +33,7 @@ const Home = () => {
                     alt="small banner" 
                     />
                     <div className="small-banner-content position-absolute">
-                      <h4>Top Sale</h4>
+                      <h4>Toppp Sale</h4>
                       <h5>iPhone S13+ Pro</h5>
                       <p>From $990 or $40 per month</p>
                     </div>
